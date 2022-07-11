@@ -1,15 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        byte line=107;
-        short words = 30000;
-        int characters = 55500;
-        Long books = 9_221_232_343_123L;
-        Float g = 1.34f;
-        double k = 1.64353213;
-        char c = 33;
-        char d = '!';
-        boolean a = 30<3;
-     System.out.println("Переменные "+ line +", " + words+", " +characters+", "+books+", "+g+", "+k+", "+c+", "+d);
-        System.out.println(a);
-    }
+        byte bananas = 80;
+        byte milk = 105;
+        byte iceCream = 100;
+        byte eggs = 70;
+        float cocktail = bananas*5 + milk*2 + iceCream*2 + eggs*4;
+        float weight = cocktail/1000;
+        System.out.println("Вес коктейля "+ cocktail+" грамм");
+        System.out.println("Вес Коктейля " + weight+ " кг");
+         }
 }
