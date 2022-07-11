@@ -1,12 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        byte bananas = 80;
-        byte milk = 105;
-        byte iceCream = 100;
-        byte eggs = 70;
-        float cocktail = bananas*5 + milk*2 + iceCream*2 + eggs*4;
-        float weight = cocktail/1000;
-        System.out.println("Вес коктейля "+ cocktail+" грамм");
-        System.out.println("Вес Коктейля " + weight+ " кг");
+        short weight = 7000;
+        short maxLoss = 500;
+        short minLoss = 250;
+        int timemax = weight/minLoss;
+        int timemin = weight/maxLoss;
+        int timeAverage = (timemax + timemin)/2;
+        System.out.println("Дней для потери веса при минимальных потерях " + timemax+ " Дней");
+        System.out.println("Дней для потери веса при максимальных потерях " + timemin+ " Дней");
+        System.out.println("Дней для потери веса в среднем " + timeAverage+ " День");
          }
 }
